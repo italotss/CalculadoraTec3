@@ -11,7 +11,10 @@ class Calculadora:
         pass
 
     def dividir(self, a, b):
-        # TODO: Implemente a divisão
-        # Certifique-se de lidar com a divisão por zero
-        pass
+        if b == 0:
+            print("Divisão por zero!")
+            
+            return
+        else
+            return a / b
 
