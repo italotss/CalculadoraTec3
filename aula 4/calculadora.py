@@ -7,8 +7,7 @@ class Calculadora:
         return a - b
 
     def multiplicar(self, a, b):
-        # TODO: Implemente a multiplicação
-        pass
+        return a * b
 
     def dividir(self, a, b):
         if b == 0:
